@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 1rem auto;
+    padding: 1rem;
+    
+}
+
+#user-playground {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    margin: auto;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+p {
+    color: green;
+}
+
+
+p:nth-child(odd) {color: black}
